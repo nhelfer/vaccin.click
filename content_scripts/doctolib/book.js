@@ -44,7 +44,7 @@
     i++;
 
     if (initialWait) {
-      await waitTimeout(50 + Math.floor(Math.random() * 1000));
+      await waitTimeout(50 + Math.floor(Math.random() * 100));
     }
 
     // On essaie d'échouer rapidement si on nous a donner un failSelector

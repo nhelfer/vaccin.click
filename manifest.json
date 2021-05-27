@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "boost.vaccin.click",
-  "version": "1.8",
+  "version": "1.8.2",
   "description": "BOOST - Trouvez et réservez automatiquement votre créneau de vaccination COVID-19.",
   "author": "Nicolas Helfer",
   "icons": {

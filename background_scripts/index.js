@@ -1,6 +1,6 @@
 // Scan périodique des RDV
 (async function () {
-  const MAX_ACTIVITY = 3;
+  const MAX_ACTIVITY = 5;
   const TIME_BETWEEN_JOBS = 2;
   const iframes = {};
   const jobs = [];
@@ -181,6 +181,6 @@
   Array.prototype.push.apply(jobs, Object.keys(locations));
 
   // Executer les jobs toutes les TIME_BETWEEN_JOBS sec
-  setInterval(executeNextJob, TIME_BETWEEN_JOBS * 1000);
+  setInterval(executeNextJob, TIME_BETWEEN_JOBS * 200);
   executeNextJob();
 })();
