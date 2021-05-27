@@ -10,3 +10,8 @@ Voir [le guide publié par Mozilla](https://extensionworkshop.com/documentation/
 
 Créé par [Kévin Dunglas](https://dunglas.fr) (licence AGPL).
 [Icônes](https://www.iconfinder.com/icons/5959975/corona_drugs_injection_syringe_vaccine_icon) par [E Conceptive](https://www.iconfinder.com/econceptive) (licence Creative Commons Attribution 3.0 Unported).
+
+## Test and Build
+web-ext run
+web-ext build
+web-ext sign --api-key=user:XXXXXX:XXX --api-secret=XXXX
