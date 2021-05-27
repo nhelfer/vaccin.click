@@ -1,7 +1,7 @@
 // Scan périodique des RDV
 (async function () {
-  const MAX_ACTIVITY = 30;
-  const TIME_BETWEEN_JOBS = 20;
+  const MAX_ACTIVITY = 3;
+  const TIME_BETWEEN_JOBS = 2;
   const iframes = {};
   const jobs = [];
   const STATUS = {

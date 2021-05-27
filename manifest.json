@@ -1,10 +1,9 @@
 {
   "manifest_version": 2,
-  "name": "vaccin.click",
-  "version": "1.7",
-  "description": "Trouvez et réservez automatiquement votre créneau de vaccination COVID-19.",
-  "author": "Kévin Dunglas",
-  "homepage_url": "https://dunglas.fr",
+  "name": "boost.vaccin.click",
+  "version": "1.8",
+  "description": "BOOST - Trouvez et réservez automatiquement votre créneau de vaccination COVID-19.",
+  "author": "Nicolas Helfer",
   "icons": {
     "48": "icons/vaccine-color.svg",
     "96": "icons/vaccine-color.svg"
@@ -13,7 +12,7 @@
   "web_accessible_resources": ["icons/vaccine-color.svg"],
   "browser_action": {
     "default_icon": "icons/vaccine-color.svg",
-    "default_title": "vaccin.click : mon vaccin COVID-19 en 1 click !",
+    "default_title": "BOOST vaccin.click : mon vaccin COVID-19 en 1 click !",
     "default_popup": "browser_action/index.html",
     "browser_style": true
   },
